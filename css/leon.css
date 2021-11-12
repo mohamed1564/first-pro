@@ -1,0 +1,285 @@
+/* mohamed hamada afifi */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;margin: 0;
+    text-transform: capitalize;
+}
+
+
+.contant a{
+    font-size: 20px;
+    color: #222;
+}
+.contant i{
+    color: var(--main-color);
+    margin-right: 15px;
+}
+.skills{
+    display: flex;
+    flex: 1 1 35rem;
+}
+.contant p{
+    color: #666;
+    margin-top: 6px;
+}
+.skills .main{
+    margin-top: 20px;
+    background-color:#888 ;
+    overflow: hidden;
+    border-radius: 30px;
+    position: relative;
+    width: 300px;
+    height: 10px;
+    
+}
+.contaner aside .contact  a{
+    display: block;
+    color: #666;
+    font-size: 15px;
+    margin: 9px;
+}
+.contaner aside .contact a i{
+    margin-right: 15px;
+    color: var(--main-color);
+}
+.line{
+    padding: 4px 9%;
+    color: #666;
+    border: none;
+}
+.contant{
+    margin: 9px;
+}
+.skills .main .progress1{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 90%;
+    background: var(--main-color);
+}
+.skills .main .progress2{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 87%;
+    background: var(--main-color);
+}
+.skills .main .progress3{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 75%;
+    background: var(--main-color);
+}
+.skills .main.progress4{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 55%;
+    background: var(--main-color);
+}
+.language{
+    margin: 9px;
+}
+.language a{
+    font-size: 20px;
+    color: #222;
+}
+.language i{
+    color: var(--main-color);
+    margin-right: 15px;
+}
+.source{
+    display: flex;
+    flex: 1 1 35rem;
+}
+.language p{
+    color: #666;
+    margin-top: 6px;
+}
+.source .type{
+    margin-top: 20px;
+    background-color:#888 ;
+    overflow: hidden;
+    border-radius: 30px;
+    position: relative;
+    width: 300px;
+    height: 10px;
+}
+.source .type .progress11{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--main-color);
+}
+.source .type .progress22{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 70%;
+    background: var(--main-color);
+}
+.source .type .progress33{
+    position: absolute;
+    top: 0;left: 0;
+    height: 100%;
+    width: 40%;
+    background: var(--main-color);
+}
+.home{
+    height: 800px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.top , .down{
+    height: 48%;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, .3);
+    background-color: #fff;
+}
+.top a , .down a{
+    margin: 5px 0 5px 15px;
+    font-size: 23px;
+    color: #666;
+    display: block;
+}
+.top a i , .down a i{
+    padding-right: 25px;
+    color: var(--main-color);
+}
+.top span , .down span{
+    color: #444;
+    margin: 30px;
+    font-size: 12;
+    padding-top: 25px;
+    display: block;
+    margin: 0 0 10px 15px;
+}
+.fil{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 15px;
+}
+.fil i{
+    margin-left: 15px;
+    color: var(--main-color);
+}
+.fil .date{
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.fil .btn{
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    top: -13px;
+    position: relative;
+    left: -13px;
+    padding: 5px;
+}
+.top p , .down p{
+    font-size: #222;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.degree2 p , .degree2 p{
+    margin-top: 15px;
+    font-weight: normal;
+}
+.degree3 p , .degree3 p{
+    margin-top: 15px;
+    font-weight: normal;
+}
+.down{
+    height: 49%;
+    background-color: #fff;
+}
+footer{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+}
+footer p{
+    padding: 15px;
+    font-size: 20px;
+}
+footer span{
+    margin: 20px 0 10px 20px;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+footer .media{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+}
+footer .media i{
+    color: #fff;
+    padding-left: 4px;
+    
+}
+:root{
+    --main-color:#10cab7;
+}
+.contaner{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 5px;
+    position: relative;
+}
+aside{
+    height: 800px;
+    width: 25%;
+    flex: 1 1;
+    box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .3);
+}
+aside .image{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+aside .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home{
+    height: 800px;
+    width: 75%;
+    color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
